@@ -1,5 +1,9 @@
 1. How does a program read the cvMat object, in particular, what is the order of the pixel structure?
+
 there are three features in cvMat:row,column,type,which could make up a 'matrix'.
-so a program could read cvMat object by those features.
+
+so by using a pointer,which could point those features,can a program read cvMat object.
+
 as for the order,just like the form Osama showed us:CV <bit depth>(SjUjF) C<number of channels>
-first comes with bit depth,then type of values(signed,unsigned,float),last is number of channels.
+
+first comes with bit depth(how many bits value you have),then type of values(signed,unsigned,float),last is number of channels.
