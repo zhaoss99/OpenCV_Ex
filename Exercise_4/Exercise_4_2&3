@@ -1,0 +1,11 @@
+What are the disadvantages of binary threshold?
+
+the value of pixel is just replaced to  black or white and the grey states are lost.
+
+as we can see, the result can not be precise. 
+
+
+When is Adaptive Threshold useful?
+
+when the value of the pixel varies very well, then we can choose different portions has the different threshold values. 
+
