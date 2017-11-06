@@ -7,4 +7,6 @@ If the noise is stationary, then the mean is independent of time.
 The covariance function becomes only the correlation function related to the difference between the two instantaneous reflections,
 which is equivalent to the power spectral density in the sense.
 
-comparing picture of 3*3 & 5*5 $ 7*7,we can see the image get more smooth as the number increased. 
+comparing picture of 3*3 & 5*5 $ 7*7,we can see the image get more blurring as the size increased. 
+Median filter works better for images with salt-and-pepper noise.
+Gaussian filter works better for images with gaussian noise.
