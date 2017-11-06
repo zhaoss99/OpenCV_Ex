@@ -1,0 +1,9 @@
+Salt and pepper noise: the value of this noise is not continuous, it has only one extremum value.
+so it is obvious to see the clear spots which is brighter in the picture, just feel like crystal salt.
+
+
+Gauss noise: The Gauss noise is completely determined by the time-varying mean and the two instantaneous covariance function.
+If the noise is stationary, then the mean is independent of time. 
+The covariance function becomes only the correlation function related to the difference between the two instantaneous reflections,
+which is equivalent to the power spectral density in the sense.
+
