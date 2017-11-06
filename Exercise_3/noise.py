@@ -35,7 +35,8 @@ def Add_gaussian_Noise(srcArr, mean, sigma):
 
 
 def main():
-    image = cv2.imread(sys.argv[1],0)
+   
+    image = cv2.imread('C:/Users/Dell/Desktop/baboon.jpg')
     
     #Ni
     #cv2.imshow("Original image", image)
